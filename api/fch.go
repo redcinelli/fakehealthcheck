@@ -53,10 +53,4 @@ func Handler(w http.ResponseWriter, r *http.Request) {
 			fmt.Fprintln(w, "500 Internal Server Error - Failure")
 		}
 	})
-
-	// Start the server
-	fmt.Println("Server is running on http://localhost:8080")
-	if err := http.ListenAndServe(":8080", nil); err != nil {
-		fmt.Println("Error starting server:", err)
-	}
 }
