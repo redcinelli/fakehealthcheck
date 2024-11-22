@@ -8,7 +8,7 @@
   "routes": [
     {
       "src": "/api/health",
-      "dest": "vercel/fch.go"
+      "dest": "api/fch"
     }
   ]
 }
