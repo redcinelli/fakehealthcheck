@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "functions": {
+    "vercel/fhc.go": {
+      "runtime": "vercel-go@0.5.2"
+    }
+  },
+  "routes": [
+    {
+      "src": "/api/health",
+      "dest": "vercel/fch.go"
+    }
+  ]
+}
